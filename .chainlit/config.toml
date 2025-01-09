@@ -31,6 +31,9 @@ cache = false
 # Chainlit server address
 # chainlit_server = ""
 
+[env]
+CHAINLIT_PORT = "8080"  # Set the port you want to use
+
 [UI]
 # Name of the app and chatbot.
 name = "Chatbot"
